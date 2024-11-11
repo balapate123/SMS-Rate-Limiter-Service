@@ -1,0 +1,248 @@
+.account-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.account-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.account-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.account-info {
+    font-size: 1em;
+    color: #333;
+}
+
+.phone-numbers-section {
+    margin-top: 10px;
+}
+
+.phone-numbers {
+    padding-left: 20px;
+}
+
+.phone-number {
+    list-style-type: disc;
+}
+/* Container for the whole page */
+.account-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Section heading */
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Account card styling */
+.account-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Account title */
+.account-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Message per second and message sent count */
+.account-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Phone numbers title */
+.account-card h4 {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+/* Phone number list styling */
+.account-card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.account-card li {
+    font-size: 0.9rem;
+    color: #444;
+}/* Main container styling */
+.account-container {
+    background-color: #f3f4f6;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main heading styling */
+h1 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Section title styling */
+h2 {
+    color: #374151;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #d1d5db;
+    padding-bottom: 10px;
+}
+
+/* Account card styling */
+.account-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect for account cards */
+.account-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Account ID title styling */
+.account-card h3 {
+    font-size: 1.4rem;
+    color: #111827;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Styling for data points (e.g., Messages per second, Messages sent) */
+.account-card p {
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+/* Styling for the phone numbers section */
+.account-card h4 {
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Styling for list of phone numbers */
+.account-card ul {
+    padding-left: 20px;
+    margin-top: 8px;
+    list-style-type: disc;
+}
+
+.account-card li {
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+/* Subtle alternating background colors for phone numbers list */
+.account-card li:nth-child(odd) {
+    background-color: #f9fafb;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Adding a shadow effect */
+.account-card li:nth-child(even) {
+    background-color: #f3f4f6;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Adding some styles to highlight important information */
+p strong {
+    color: #1f2937;
+    font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .account-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .account-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .account-card p, .account-card li {
+        font-size: 0.9rem;
+    }
+}
+
