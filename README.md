@@ -3,6 +3,7 @@
 
 This project is a Rate Limiter Monitoring application that provides a backend API built with .NET and a frontend UI built with React. The backend API handles rate limiting information for various accounts and phone numbers, while the frontend displays this data with options for filtering and real-time monitoring.
 
+
 ## Features
 
 - **Backend (API)**: Built with .NET, provides endpoints for rate limiting, account details, and phone number statistics.
@@ -69,7 +70,7 @@ Inside the Redis CLI, type `PING`. You should receive `PONG` if Redis is running
      "RateLimiter": {
        "MaxMessagesPerNumber": 5,
        "MaxMessagesPerAccount": 10,
-       "ExpirationTimeInSeconds": 60
+       "ExpirationTimeInSeconds": 1
      }
    }
    ```
