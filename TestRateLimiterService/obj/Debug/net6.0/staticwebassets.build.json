@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gUVo7rKOToAoeg3CZpSmGyudcO9d6DU3aUOpgkZqf0A=",
+  "Source": "TestRateLimiterService",
+  "BasePath": "_content/TestRateLimiterService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
